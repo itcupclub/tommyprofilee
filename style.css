@@ -1,0 +1,260 @@
+/*Start Main Rulez*/
+
+body {font-family:Arial,Tahoma;height: 1900px;pading:0px;margin:0px;}
+.container {width: 1170px;margin: auto;}
+.clearfix {clear: both;}
+
+/*End Main Rulez*/
+
+/*Star Header*/
+
+header .slider {
+	background-image: url("https://i.imgur.com/P6UqSTM.jpg");
+	-webkit-background-size: cover; 
+	-moz-background-size: cover; 
+	-o-background-size: cover; 
+	background-size: cover; 
+	height: 550PX;
+}
+header .slider .intro  {
+	padding-top:215px; 
+	text-align: center;	
+}
+header .slider .intro h2 {
+	color: deepskyblue;	
+	font-size: 45px; 
+	margin: 0 auto;
+	width: 500px;
+	border-top: 3px solid #ffd90f;
+	border-bottom:3px solid #ffd90f;
+	padding: 15px 0;
+}
+header nav {			
+	background-color: deepskyblue;
+	color: #FFF;
+	overflow: hidden;
+}
+header nav h2 span {color: yellow;}
+header nav ul {
+	list-style: none;
+	padding-left: 0;
+	float: right;
+}
+header nav ul li {float: left;padding: 10px;}
+header nav ul li a {color: #FFF;text-decoration: none;}
+header nav ul li a:hover {color: #E84C3D;}
+
+/*End Header*/
+
+/*Start Features*/
+
+.Features {
+	overflow: hidden;
+	padding-top:40px;
+	padding-bottom: 55px; 
+  background-color: orange;
+}
+.Features .feat {width: 33.33333%;height: 150px;}
+.Features .feat h2 {color:#fff;}
+.Features .feat p {
+	line-height: 1.7;
+	color: #666;
+	text-align: justify;
+	padding: 0 20px 0 ; 
+}
+
+/*Start Features*/
+
+/*Start About Me*/
+
+.about-me {background-color: #F2F2F2;overflow: hidden;}
+.about-me .image {width: 40%;}
+.about-me .image img {width: 100%;}
+.about-me .info {width: 60%;}
+.about-me .info h2 {margin: 35px 0 20px 50px;}
+.about-me .info > p {margin: 0px 0px 10px 50px;}
+.about-me .info p {
+	margin: 0px 0px 0px 5px;
+	line-height: 1.6;
+	color: #666;
+}
+.about-me .info .Hobbies {
+	overflow: hidden;
+	margin: 25px 0 0 50px;
+}
+.about-me .info .Hobbies > div {width: 50%;min-height: 100px;}
+
+.about-me .info .Hobbies > div  h3 {color: #E84C3D	;}
+
+/*End About Me*/
+
+/*Start My Skills*/
+
+.my-skills {
+	padding-top:30px;
+	padding-bottom:50px;  
+	overflow: hidden;
+}
+.my-skills .skills ,
+.my-skills .progress{width: 50%;}
+.my-skills .skills h2 {
+	margin: 35px 0 20px 50px;
+  margin-left:4%;
+  font-size: 26px;
+	color: #E84C3D;
+  line-height: 16px;
+}
+.my-skills .skills p {
+	margin: 0px 0px 10px 40px;
+	line-height: 1.6;
+	color: #666;
+}
+.my-skills .skills p:last-of-typ {margin-top:30px;}
+.my-skills .progress .tec{margin-left: 50px}
+.my-skills .progress .tec h3 {color: #E84C3D;	}
+.my-skills .progress .tec div {
+	background-color: #DDD;
+	height: 8px;
+	
+}
+.my-skills .progress .tec div span {
+	background-color: #E84C3D;
+	height:8px;
+	display: block;
+	line-height:25px;
+	text-align: right;
+
+}
+
+/*End My Skills*/
+
+/*Start My Education*/
+
+.my-Education {
+	padding-top:30px;
+	padding-bottom:30px;  
+	overflow: hidden;
+}
+.my-Education .main {width: 50%;margin-left:2%; font-size: 13px;}
+.my-Education .main {color:#E84C3D;}
+.my-Education .main p {
+	margin: 0px 0px 10px 40px;
+	line-height: 1.6;
+	color: #666;
+}
+
+.my-Education .main p:last-of-typ {margin-top:30px;}
+.my-Education .exp{width: 45%;}
+.my-Education .exp h3 {
+	margin-top: 80px;
+	margin-bottom:10px;
+	color: #E84C3D;
+}
+.my-Education .exp span {
+	display: block;
+	margin-bottom:10px;
+}
+.my-Education .exp span:first-of-type {color: #666;}
+.my-Education .exp span:last-of-type {
+	color: #FFF;
+	background-color: #E84C3D;
+	display: inline-block;
+	padding: 4px;
+}
+.my-Education .exp hr {
+	margin: 20px 0px;
+	background-color:#999;
+	height: 1px;
+	border:0px;
+}
+.my-Education .exp ul li {
+  color: #000000;
+  
+}
+
+/*End My Education*/	
+
+/*Start testemonials*/
+
+.testemonials {
+	background-color: #F2F2F2;
+	padding-top:60px;
+	padding-bottom:65px;  
+	text-align: center;
+}
+.testemonials  q {	
+	color: #666;
+	font:italic bold 18px/1.8 Arial,Tahoma;
+}
+.testemonials  h3 {
+	color: #777;
+	margin-bottom:30px;
+	font-weight: bold;
+}
+.testemonials ul {
+	list-style: none;
+	padding-left: 0;
+	text-align: center;
+}
+.testemonials ul li {
+	width:15px;
+	height:15px;
+	border:2px solid #E84C3D;
+	display:inline-block; 
+}
+.testemonials ul li.active {background-color: #E84C3D;} 
+.testemonials ul li:hover{
+	background-color: #E84C3D;
+	cursor: pointer;
+	border-radius: 50%;
+}
+
+/*End testemonials*/
+
+/*Start Portfolio*/
+
+.Portfolio {
+	padding-top:50px;
+	padding-bottom:70px;
+	text-align: center;  
+}
+.Portfolio h2 {color:#E84C3D;}
+.Portfolio p {
+	line-height: 1.7;
+	color: #666;
+	margin-bottom: 35px;
+}
+.Portfolio .our-work {overflow: hidden;}
+.Portfolio .our-work > div{
+	width: 33.333333%;
+	margin-bottom: 10px;
+}
+.Portfolio .our-work > div img {
+	padding: 3px;
+	background-color: #FFF;
+	border: 2px solid #CCC;
+	box-shadow: 5px 5px 6px #CCC;
+	margin-top: 0px;
+    -webkit-transition: margin 1s ease;
+    -moz-transition: margin 1s ease;
+    -o-transition: margin 1s ease;
+    -ms-transition: margin 1s ease;
+    transition: margin 1s ease;	
+}
+.Portfolio .our-work > div img:hover {
+	cursor:pointer;
+    margin-left: -65px;
+    -webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	-o-filter: grayscale(100%);
+	-ms-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
+
+/*End Portfolio*/
+
+/* Start FrameWork*/
+
+.f {float: left;}
+
+/* End FrameWork*/
